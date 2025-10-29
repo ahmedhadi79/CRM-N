@@ -1,0 +1,56 @@
+column_comments = {
+    "mc_event_definitions": {
+        "id": "Unique identifier for the marketing cloud event definition.",
+        "type": "Type of the event definition (e.g., email, push notification, etc.).",
+        "name": "Name of the event definition.",
+        "description": "Description of the event definition.",
+        "createdDate": "Timestamp indicating when the event definition was created.",
+        "createdBy": "User ID of the creator of the event definition.",
+        "modifiedDate": "Timestamp indicating when the event definition was last modified.",
+        "modifiedBy": "User ID of the user who last modified the event definition.",
+        "mode": "Mode of the event definition (e.g., production, test, etc.).",
+        "eventDefinitionKey": "Unique key identifying the event definition.",
+        "dataExtensionId": "ID of the data extension associated with the event definition.",
+        "dataExtensionName": "Name of the data extension associated with the event definition.",
+        "sourceApplicationExtensionId": "ID of the source application extension.",
+        "filterDefinitionId": "ID of the filter definition associated with the event definition.",
+        "interactionCount": "Number of interactions associated with the event definition.",
+        "isVisibleInPicker": "Boolean indicating whether the event definition is visible in the picker.",
+        "isPlatformObject": "Boolean indicating whether the event definition is a platform object.",
+        "category": "Category of the event definition.",
+        "publishedInteractionCount": "Number of published interactions associated with the event definition.",
+        "automationId": "ID of the automation associated with the event definition.",
+        "disableDEDataLogging": "Boolean indicating whether data extension data logging is disabled for the event definition.",
+        "date": "Date associated with the event definition extraction.",
+        "timestamp_extracted": "Timestamp indicating when the data was extracted.",
+    }
+}
+
+
+schemas = {
+    "mc_event_definitions": {
+        "id": "string",
+        "type": "string",
+        "name": "string",
+        "description": "string",
+        "createdDate": "timestamp",
+        "createdBy": "int",
+        "modifiedDate": "timestamp",
+        "modifiedBy": "int",
+        "mode": "string",
+        "eventDefinitionKey": "string",
+        "dataExtensionId": "string",
+        "dataExtensionName": "string",
+        "sourceApplicationExtensionId": "string",
+        "filterDefinitionId": "string",
+        "interactionCount": "int",
+        "isVisibleInPicker": "boolean",
+        "isPlatformObject": "boolean",
+        "category": "string",
+        "publishedInteractionCount": "int",
+        "automationId": "string",
+        "disableDEDataLogging": "boolean",
+        "date": "date",
+        "timestamp_extracted": "timestamp",
+    }
+}
