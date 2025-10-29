@@ -1,0 +1,119 @@
+{
+    "report": "POST_RESPONSE_TIME",
+    "reportingEngine": "PLATFORM",
+    "timeField": "date",
+    "startTime": 1721170800000,
+    "endTime": 1721257199999,
+    "timeZone": "Europe/London",
+    "page": 0,
+    "pageSize": 20,
+    "filters": [
+        {
+            "dimensionName": "CLIENT_ID",
+            "filterType": "IN",
+            "values": [
+                2000413,
+                "-1"
+            ],
+            "details": {
+                "accessible": true,
+                "uniqueId": "D_CLIENT_ID"
+            }
+        },
+        {
+            "dimensionName": "ACCOUNT_ID",
+            "filterType": "IN",
+            "values": [
+                999998,
+                999988,
+                -15,
+                -12,
+                300126053,
+                300124068,
+                300123999,
+                300123998,
+                300191415,
+                300124002,
+                "999998",
+                "999999",
+                "-65537",
+                "-10",
+                "978657890"
+            ],
+            "details": {
+                "accessible": true,
+                "uniqueId": "D_ACCOUNT_ID"
+            }
+        }
+    ],
+    "groupBys": [
+        {
+            "heading": "REPLY_POST_ID_0",
+            "dimensionName": "REPLY_POST_ID",
+            "groupType": "FIELD",
+            "details": {},
+            "namedFilters": null
+        },
+        {
+            "heading": "UNIFIED_MESSAGE_ID_1",
+            "dimensionName": "UNIFIED_MESSAGE_ID",
+            "groupType": "FIELD",
+            "details": {},
+            "namedFilters": null
+        },
+        {
+            "heading": "MESSAGE_SN_CREATED_TIME_2",
+            "dimensionName": "MESSAGE_SN_CREATED_TIME",
+            "groupType": "FIELD",
+            "details": {
+                "isDateTypeDimension": true,
+                "interval": "1h"
+            },
+            "namedFilters": null
+        },
+        {
+            "heading": "MESSAGE_RESPONSE_DATE_3",
+            "dimensionName": "MESSAGE_RESPONSE_DATE",
+            "groupType": "FIELD",
+            "details": {
+                "isDateTypeDimension": true,
+                "interval": "1h"
+            },
+            "namedFilters": null
+        }
+    ],
+    "projections": [
+        {
+            "heading": "M_POST_RESPONSE_TIME_MESSAGE_RESPONSE_TIME_0",
+            "measurementName": "MESSAGE_RESPONSE_TIME",
+            "aggregateFunction": "SUM",
+            "details": {}
+        }
+    ],
+    "projectionDecorations": [],
+    "projectionFilters": null,
+    "sorts": [
+        {
+            "heading": "M_POST_RESPONSE_TIME_MESSAGE_RESPONSE_TIME_0",
+            "order": "ASC"
+        }
+    ],
+    "streamRequestInfo": null,
+    "additional": {
+        "translateResponse": "false",
+        "widgetId": "6697860c469fc32cc64388ee",
+        "personaAppName": "SOCIAL_LISTENING",
+        "exportInfo": "false",
+        "MARGIN": "false",
+        "showForecast": "false",
+        "dashboardId": "6697843a469fc32cc6404d16",
+        "engine": "PLATFORM",
+        "showTotal": "false",
+        "chartType": "TABLE",
+        "showRolloverTrends": "false",
+        "TABULAR": "true",
+        "option": "date"
+    },
+    "skipResolve": false,
+    "jsonResponse": false
+}
